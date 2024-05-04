@@ -9,6 +9,11 @@ footer{
     z-index: 4;
     border-radius: 4px;
     font-size: 1.8vw;
+    background-image: url('../resources/img/upside_down_background.jpg');
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+    position: auto;
 }
 
 
@@ -16,7 +21,7 @@ footer{
 
 body{
     /* background-image: url('../resources/img/background-image.jpeg'); */
-    background-image: url('../resources/img/ivana-cajina-HDd-NQ_AMNQ-unsplash.jpg');
+    background-image: url('../resources/img/background.jpg');
     background-repeat: no-repeat;
     background-position: absolute;
     background-size: cover;
@@ -323,4 +328,13 @@ color: rgb(54, 54, 234);
 #bikingImage{
     width: 25vw;
     border-radius: 2px;
+}
+
+
+head {
+    background-image: url('../resources/img/upside_down_background.jpg');
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+    position: auto;
 }
