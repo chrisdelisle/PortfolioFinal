@@ -1,3 +1,5 @@
+
+
 footer{
     position:auto;
     bottom:0;
@@ -9,11 +11,7 @@ footer{
     z-index: 4;
     border-radius: 4px;
     font-size: 1.8vw;
-    background-image: url('../resources/img/upside_down_background.jpg');
-    background-repeat: no-repeat;
-    background-position: absolute;
-    background-size: cover;
-    position: auto;
+
 }
 
 
@@ -26,7 +24,8 @@ body{
     background-position: absolute;
     background-size: cover;
     position: auto;
-   
+  
+    
 }
 
 
@@ -330,11 +329,3 @@ color: rgb(54, 54, 234);
     border-radius: 2px;
 }
 
-
-head {
-    background-image: url('../resources/img/upside_down_background.jpg');
-    background-repeat: no-repeat;
-    background-position: absolute;
-    background-size: cover;
-    position: auto;
-}
