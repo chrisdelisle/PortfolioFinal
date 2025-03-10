@@ -333,6 +333,10 @@ color: rgb(54, 54, 234);
 
 /* Mobile Responsive Styles */
 @media only screen and (max-width: 767px) {
+    
+    body { 
+        background-color: black;
+    }
     /* Footer adjustments */
     footer {
         height: 50px;
