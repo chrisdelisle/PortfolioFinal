@@ -330,3 +330,73 @@ color: rgb(54, 54, 234);
     border-radius: 2px;
 }
 
+
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 767px) {
+    /* Footer adjustments */
+    footer {
+        height: 50px;
+        font-size: 3.5vw;
+        padding-top: 5px;
+    }
+    
+    /* Navigation adjustments */
+    #mynav {
+        font-size: 14px;
+        word-spacing: 5px;
+        padding-bottom: 15px;
+    }
+    
+    #icon {
+        position: static;
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    
+    /* Carousel adjustments */
+    .c-item {
+        height: 300px;
+    }
+    
+    /* Self description and image adjustments */
+    #self-desc {
+        font-size: 3vw;
+    }
+    
+    #selfImageSize {
+        width: 80vw;
+    }
+    
+    /* Grid layout adjustments */
+    #sss {
+        display: block;
+        padding-bottom: 15%;
+    }
+    
+    .grid-item {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin-bottom: 20px;
+    }
+    
+    /* Hobbies grid adjustments */
+    #hobbies-grid {
+        grid-template-columns: 1fr;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 15%;
+    }
+    
+    /* Hobby cards and images adjustments */
+    #hobby-card-1, #hobby-card-2, #hobby-card-3 {
+        font-size: 4vw;
+        margin-bottom: 20px;
+    }
+    
+    #snowmobileImage, #codingImage, #bikingImage {
+        width: 75vw;
+    }
+}
+
