@@ -335,8 +335,54 @@ color: rgb(54, 54, 234);
 @media only screen and (max-width: 767px) {
     
     body { 
-        background-color: black;
+        /* background-color: pink; */
+        background-image: url('../resources/img/background.jpg');
+        background-repeat: no-repeat;
+        background-position: absolute;
+        background-size: cover;
+        position: auto;
+        background-color: #f4dcc4
     }
+
+    #self-image
+    {
+        z-index:2;
+        position: center;
+    
+        animation-name: imageSlide;
+        animation-duration: 1s;
+        animation-timing-function: ease-out forwards;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+
+        transform: translateX(0px);
+    
+        opacity: 1;
+}
+
+
+    #self-desc{
+        text-align: center;
+        font-size: 4vw;
+
+        animation-name: selfDescSlide;
+        animation-duration: 1s;
+        animation-timing-function: ease-out forwards;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+
+
+        z-index: 1;
+        position: relative;
+        color: black;
+        opacity: 1;
+}
+
+
     /* Footer adjustments */
     footer {
         height: 50px;
@@ -346,17 +392,29 @@ color: rgb(54, 54, 234);
     
     /* Navigation adjustments */
     #mynav {
-        font-size: 14px;
+       
         word-spacing: 5px;
         padding-bottom: 15px;
+        background-color: #7a9f93;
+        padding-top: 1vw;
+    }
+
+    #navtext{
+        padding-left: 4vw;
+        font-size: 3vw;
+        padding-top: 1vw;
     }
     
     #icon {
         position: static;
         display: block;
         text-align: center;
-        padding-top: 10px;
-        padding-bottom: 5px;
+        /* padding-top: 1vw; */
+        position: absolute;
+        right: 4vw;
+        top: 3vw;
+    
+        /* style="float:right" */
     }
     
     /* Carousel adjustments */
@@ -365,9 +423,7 @@ color: rgb(54, 54, 234);
     }
     
     /* Self description and image adjustments */
-    #self-desc {
-        font-size: 3vw;
-    }
+   
     
     #selfImageSize {
         width: 80vw;
@@ -401,6 +457,9 @@ color: rgb(54, 54, 234);
     
     #snowmobileImage, #codingImage, #bikingImage {
         width: 75vw;
+        padding-top: 4vw;
     }
+
+
 }
 
