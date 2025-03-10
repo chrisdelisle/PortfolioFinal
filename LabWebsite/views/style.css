@@ -209,11 +209,12 @@ color: rgb(54, 54, 234);
 
 #sss{
     display:grid;
-    padding: 0px 0px;
+    /* padding: 0px 0px; */
    
     grid-template-columns: 1% 40%;
     grid-gap: 40%;
     padding-bottom: 9%;
+   
 
 } 
 
@@ -226,6 +227,7 @@ color: rgb(54, 54, 234);
     /* padding: 20px; */
     opacity: 1.0;
    padding-left: 10vw;
+
    
    
 } 
@@ -347,7 +349,8 @@ color: rgb(54, 54, 234);
     #self-image
     {
         z-index:2;
-        position: center;
+        /* position: center; */
+   
     
         animation-name: imageSlide;
         animation-duration: 1s;
@@ -361,6 +364,8 @@ color: rgb(54, 54, 234);
     
         opacity: 1;
 }
+
+
 
 
     #self-desc{
@@ -384,10 +389,15 @@ color: rgb(54, 54, 234);
 
 
     /* Footer adjustments */
-    footer {
-        height: 50px;
+    #footer {
+        
+ 
+        height: 3vw;
         font-size: 3.5vw;
-        padding-top: 5px;
+        padding-bottom: 7vw;
+        text-align: center;
+        /* flex-shrink: 0; */
+
     }
     
     /* Navigation adjustments */
@@ -431,13 +441,20 @@ color: rgb(54, 54, 234);
     
     /* Grid layout adjustments */
     #sss {
-        display: block;
+        /* display: block;
+        padding-bottom: 15%; */
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding-bottom: 15%;
+        flex-direction: column; 
     }
     
     .grid-item {
-        padding-left: 5vw;
-        padding-right: 5vw;
+      
+        padding: 0;
         margin-bottom: 20px;
     }
     
@@ -458,6 +475,16 @@ color: rgb(54, 54, 234);
     #snowmobileImage, #codingImage, #bikingImage {
         width: 75vw;
         padding-top: 4vw;
+    }
+
+    #hobby-card-2{
+        animation-name: slideInLeft;
+        animation-duration: .75s;
+        animation-timing-function: ease-out forwards;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
     }
 
 
