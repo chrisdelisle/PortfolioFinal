@@ -21,7 +21,7 @@ footer{
 body{
     /* background-image: url('../resources/img/background-image.jpeg'); */
     background-image: url('../resources/img/background.jpg');
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-position: absolute;
     background-size: cover;
     position: auto;
